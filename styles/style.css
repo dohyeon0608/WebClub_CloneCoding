@@ -1,0 +1,122 @@
+html {
+    background: black;
+    color: white;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: 0 black;
+}
+
+.top_navigate {
+    display: inline-flex;
+    float: right;
+    height: 40px;
+    width: 190px;
+    justify-content: space-between;
+}
+
+.top_navigate_item {
+    width: 80px;
+    justify-content: center;
+}
+
+select.top_navigate_item {
+    border-radius: 10px;
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+    /*flex: 1;*/
+    /*width: inherit;*/
+}
+
+button.top_navigate_item {
+    height: inherit;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(128, 0, 0, .8);
+    font-size: 20px;
+}
+
+#logo {
+    color: red;
+    font-size: 40px;
+    display: inline;
+}
+
+#start > h1, h2, h3, h4, h5 ,h6, p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#start > h1 {
+    font-size: 60px;
+}
+
+#start > h4 {
+    font-size: 30px;
+}
+
+#start > p {
+    font-size: 20px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../resources/background.jpg");
+    width: 100%;
+    background-size: cover;
+    margin: 0 auto;
+    height: calc(400px);
+}
+
+#top {
+    /*margin: 10px auto;*/
+    margin: 10px 20px 0 20px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+#main_header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: inherit;
+
+    background: linear-gradient(to top, rgba(0, 0, 0, 50) 20%, rgba(0, 0, 0, 0) 100%, transparent)
+}
+
+/*input {*/
+/*    margin: 0 auto;*/
+/*    */
+/*    width: 500px;*/
+/*    height: inherit;*/
+/*}*/
+
+.input_id {
+    height: 60px;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.input_id > input {
+    /*margin: 0 auto;*/
+
+    font-size: 15px;
+    flex:9;
+    /*width: 500px;*/
+    height: inherit;
+}
+
+.input_id > #email_submit {
+    flex:1;
+    /*width: 200px;*/
+    display: inline;
+    height: inherit;
+}
